@@ -1,14 +1,10 @@
 
-import subprocess
+
 from pynput.keyboard import Key , Listener
 
 
 
 def on_press (key):
-    global keys,count
-
-    keys.append(key)
-
 
     print("{0} pressed".format(key))
 
